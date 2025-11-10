@@ -32,17 +32,17 @@
     <img
         alt='퀴즈'
         src='./004%20images/level.png'
-        height='300px'
+        style='flex: 1; height: 300px; object-fit: scale-down;'
     />
     <img
         alt='퀴즈'
         src='./004%20images/quiz.png'
-        height='300px'
+        style='flex: 1; height: 300px; object-fit: scale-down;'
     />
      <img
         alt='퀴즈'
         src='./004%20images/wd_dsc.png'
-        height='300px'
+        style='flex: 1; height: 300px; object-fit: scale-down;'
     />
 </div>
 어휘력 검증은 10문항의 단어-의미 매칭 형태로 진행되며, 5문항 이상 정답 시 상위 등급(High)으로 분류된다. 이후 시스템은 사용자의 결과에 따라 Low·High 두 단계의 어휘 수준을 시각화하고, 뉴스 도메인의 문맥 다양도·교육 난이도·사용자 어휘력을 종합적으로 고려해 단어와 예문을 제공한다. 각 어휘는 유의어·반의어 및 예문을 함께 제시하여 사용자가 낯선 단어를 맥락 속에서 이해하고 어휘 확장을 유도할 수 있도록 구성하였다. 이러한 구조는 본 시스템의 핵심 데이터셋으로 활용되어, 사용자 어휘력 등급에 따른 맞춤형 어휘 제공 기능을 구현한다.
@@ -55,17 +55,17 @@
     <img
         alt='요약'
         src='./004%20images/summary.png'
-        height='300px'
+        style='flex: 1; height: 300px; object-fit: scale-down;'
     />
     <img
         alt='긍정'
         src='./004%20images/pos.png'
-        height='300px'
+        style='flex: 1; height: 300px; object-fit: scale-down;'
     />
     <img
         alt='긍정'
         src='./004%20images/neg.png'
-        height='300px'
+        style='flex: 1; height: 300px; object-fit: scale-down;'
     />
 </section>
 뉴스 기사에 대한 요약문과 긍·부정 코멘트를 제공하는 화면이다. 사용자는 요약문으로 핵심 정보를 신속히 이해하고, 양측 시각의 코멘트를 통해 원문을 균형 있게 해석함으로써 비판적 사고 능력을 향상시킬 수 있다.
